@@ -1,0 +1,1 @@
+{"ast":null,"code":"","map":{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":["\nexport type ViewActionStateInfo = {\n    viewId: string,\n    actionId: string,\n    status: ActionStatusType,\n    lastRequest: number,\n    error?: any,\n  };\n  "]},"metadata":{},"sourceType":"script"}

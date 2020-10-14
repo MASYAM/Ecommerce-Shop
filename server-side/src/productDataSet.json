@@ -1,0 +1,324 @@
+{
+  "products": [
+    {
+      "type": "holidaySale",
+      "thumbail": "(project-directory)/server-side/src/assets/stockphoto/products/products001.png",
+      "name": "Beach Hat",
+      "price": "50.00",
+      "starLevel": 0,
+      "isNewArrive": true,
+      "isOutOfStock": false,
+      "id": "PRODUCT_ID_83336",
+      "color": [
+        {
+          "id": "black",
+          "value": "black"
+        },
+        {
+          "id": "Red",
+          "value": "Red"
+        },
+        {
+          "id": "White",
+          "value": "White"
+        },
+        {
+          "id": "Blue",
+          "value": "Blue"
+        }
+      ],
+      "size": [
+        {
+          "id": "XL",
+          "value": "XL"
+        },
+        {
+          "id": "L",
+          "value": "L"
+        },
+        {
+          "id": "M",
+          "value": "M"
+        },
+        {
+          "id": "S",
+          "value": "S"
+        }
+      ],
+      "images": [
+        {
+          "id": "image-id-001",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products001.png"
+        },
+        {
+          "id": "image-id-002",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products001.png"
+        },
+        {
+          "id": "image-id-003",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products001.png"
+        },
+        {
+          "id": "image-id-004",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products001.png"
+        }
+      ]
+    },
+    {
+      "type": "designerCollection",
+      "thumbail": "(project-directory)/server-side/src/assets/stockphoto/products/products002.png",
+      "name": "Jeans",
+      "price": "59.00",
+      "starLevel": 2,
+      "isNewArrive": true,
+      "isOutOfStock": false,
+      "id": "PRODUCT_ID_27343",
+      "color": [
+        {
+          "id": "black",
+          "value": "black"
+        },
+        {
+          "id": "Red",
+          "value": "Red"
+        },
+        {
+          "id": "White",
+          "value": "White"
+        },
+        {
+          "id": "Blue",
+          "value": "Blue"
+        }
+      ],
+      "size": [
+        {
+          "id": "XL",
+          "value": "XL"
+        },
+        {
+          "id": "L",
+          "value": "L"
+        },
+        {
+          "id": "M",
+          "value": "M"
+        },
+        {
+          "id": "S",
+          "value": "S"
+        }
+      ],
+      "images": [
+        {
+          "id": "image-id-001",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products002.png"
+        },
+        {
+          "id": "image-id-002",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products002.png"
+        },
+        {
+          "id": "image-id-003",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products002.png"
+        },
+        {
+          "id": "image-id-004",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products002.png"
+        }
+      ]
+    },
+    {
+      "type": "AlineDress",
+      "thumbail": "(project-directory)/server-side/src/assets/stockphoto/products/products003.png",
+      "name": "Jacket",
+      "price": "110.00",
+      "starLevel": 1,
+      "isNewArrive": true,
+      "isOutOfStock": false,
+      "id": "PRODUCT_ID_90814",
+      "color": [
+        {
+          "id": "black",
+          "value": "black"
+        },
+        {
+          "id": "Red",
+          "value": "Red"
+        },
+        {
+          "id": "White",
+          "value": "White"
+        },
+        {
+          "id": "Blue",
+          "value": "Blue"
+        }
+      ],
+      "size": [
+        {
+          "id": "XL",
+          "value": "XL"
+        },
+        {
+          "id": "L",
+          "value": "L"
+        },
+        {
+          "id": "M",
+          "value": "M"
+        },
+        {
+          "id": "S",
+          "value": "S"
+        }
+      ],
+      "images": [
+        {
+          "id": "image-id-001",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products003.png"
+        },
+        {
+          "id": "image-id-002",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products003.png"
+        },
+        {
+          "id": "image-id-003",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products003.png"
+        },
+        {
+          "id": "image-id-004",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products003.png"
+        }
+      ]
+    },
+    {
+      "type": "designerCollection",
+      "thumbail": "(project-directory)/server-side/src/assets/stockphoto/products/products004.png",
+      "name": "Bag",
+      "price": "89.00",
+      "starLevel": 2,
+      "isNewArrive": true,
+      "isOutOfStock": true,
+      "id": "PRODUCT_ID_79621",
+      "color": [
+        {
+          "id": "black",
+          "value": "black"
+        },
+        {
+          "id": "Red",
+          "value": "Red"
+        },
+        {
+          "id": "White",
+          "value": "White"
+        },
+        {
+          "id": "Blue",
+          "value": "Blue"
+        }
+      ],
+      "size": [
+        {
+          "id": "XL",
+          "value": "XL"
+        },
+        {
+          "id": "L",
+          "value": "L"
+        },
+        {
+          "id": "M",
+          "value": "M"
+        },
+        {
+          "id": "S",
+          "value": "S"
+        }
+      ],
+      "images": [
+        {
+          "id": "image-id-001",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products004.png"
+        },
+        {
+          "id": "image-id-002",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products004.png"
+        },
+        {
+          "id": "image-id-003",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products004.png"
+        },
+        {
+          "id": "image-id-004",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products004.png"
+        }
+      ]
+    },
+    {
+      "type": "holidaySale",
+      "thumbail": "(project-directory)/server-side/src/assets/stockphoto/products/products005.png",
+      "name": "Leather Boot",
+      "price": "160.50",
+      "starLevel": 1,
+      "isNewArrive": true,
+      "isOutOfStock": false,
+      "id": "PRODUCT_ID_85032",
+      "color": [
+        {
+          "id": "black",
+          "value": "black"
+        },
+        {
+          "id": "Red",
+          "value": "Red"
+        },
+        {
+          "id": "White",
+          "value": "White"
+        },
+        {
+          "id": "Blue",
+          "value": "Blue"
+        }
+      ],
+      "size": [
+        {
+          "id": "XL",
+          "value": "XL"
+        },
+        {
+          "id": "L",
+          "value": "L"
+        },
+        {
+          "id": "M",
+          "value": "M"
+        },
+        {
+          "id": "S",
+          "value": "S"
+        }
+      ],
+      "images": [
+        {
+          "id": "image-id-001",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products005.png"
+        },
+        {
+          "id": "image-id-002",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products005.png"
+        },
+        {
+          "id": "image-id-003",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products005.png"
+        },
+        {
+          "id": "image-id-004",
+          "image": "(project-directory)/server-side/src/assets/stockphoto/products/products005.png"
+        }
+      ]
+    }
+  ]
+}
