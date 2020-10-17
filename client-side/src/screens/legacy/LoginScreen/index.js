@@ -170,15 +170,13 @@ class LoginScreen extends React.Component<Props> {
         return (
             <Container style={styles.registerBackgroundStyle}>
                 <StandardHeader back />
-                {/* <StandardHeader back /> */}
                 <Content>
                     <View style={styles.body}>
                         <View style={styles.descWrap}>
-                            <Text style={styles.txt}>Account Login</Text>
+                            <Text style={styles.txt}>Sign In</Text>
                         </View>
 
                         <View style={styles.formInputContainer}>
-                            <Text style={styles.inputHeader}>Your email</Text>
                             <TextInput 
                                 ref= {(el) => { this.emailInput = el; }}
                                 onChangeText={(text) => this.email = text}
@@ -189,7 +187,6 @@ class LoginScreen extends React.Component<Props> {
                                 style={styles.textInputStyle}>                                  
                             </TextInput>
                                
-                            <Text style={styles.inputHeader}>Your password</Text>
                             <TextInput 
                                 ref= {(el) => { this.passwordInput = el; }}
                                 onChangeText={(text) => this.password = text}
@@ -202,21 +199,22 @@ class LoginScreen extends React.Component<Props> {
                 
                             <ListItem style={styles.tncstyle} >
                                 <CheckBox
-                                color="blue"
+                                color="black"
                                 checked={this.state.isUserWantToSavedLogin}
                                 onPress={() => this.doSaveLogin()}
                                 />
                                     <Body>
-                                        <Text>Keep me Logged In</Text>
+                                        <Text>Keep me signed in</Text>
                                     </Body>
                             </ListItem>
+                            <View style={styles.bottomLayerFiller}></View>
+                            <View style={styles.bottomLayer}>
+                                <Button transparent full  style={styles.btnLogin} onPress={this.doLoginNow}>
+                                    <Text style={styles.btnLoginTextStyle} large>Sign In</Text>
+                                </Button>                                  
+                            </View>
                         </View>
-                        <View style={styles.bottomLayerFiller}></View>
-                        <View style={styles.bottomLayer}>
-                            <Button transparent full  style={styles.btnLogin} onPress={this.doLoginNow}>
-                                <Text style={styles.btnLoginTextStyle} large>Login</Text>
-                            </Button>                                  
-                        </View>
+                        
                     </View>
                 </Content>
 

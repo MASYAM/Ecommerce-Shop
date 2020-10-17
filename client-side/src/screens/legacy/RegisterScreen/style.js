@@ -8,16 +8,6 @@ export default {
         marginTop:-25
     },
 
-    arrowcontainer: {
-        marginLeft: 16,
-        marginTop: 40,
-    },
-
-    leftarrow: {
-        width: 15,
-        height: 15
-    },
-
     descWrap: {
         marginTop: 20,
         marginHorizontal: 30,
@@ -27,7 +17,8 @@ export default {
         fontSize: 30,
         fontFamily: ThemeSettings.buttonFont,
         fontWeight: "bold",
-        color:'white'
+        color:'white',
+        textAlign:'center'
     },
 
     formInputContainer:{
@@ -146,7 +137,7 @@ export default {
     },
         backgroundImage_imageStyle: {},
         registerBackgroundStyle:{
-        backgroundColor:  '#b50000'
+        backgroundColor:  '#039BE5'
     },
 
     bottomLayerFiller:{
@@ -156,7 +147,7 @@ export default {
     btnLogin: {
         width: '90%',
         height: 49,
-        borderRadius: 24,
+        borderRadius: 26,
         borderColor: 'black',
         borderWidth: 3,
         backgroundColor:'black',
@@ -230,5 +221,7 @@ export default {
     btnLogonNowTextStyle:{
         color:'white'
     },
-    tncstyle:{  marginLeft:0}
+    tncstyle:{  
+        marginLeft:15   
+    }
 }

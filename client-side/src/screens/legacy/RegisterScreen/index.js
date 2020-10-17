@@ -195,16 +195,15 @@ class RegisterScreen extends React.Component<Props> {
                             <Text style={styles.txt}>Create Account</Text>
                         </View>
                         <View style={styles.formInputContainer}>      
-                            <Text style={styles.inputHeader}>Your name</Text>
                             <TextInput 
                                 ref= {(el) => { this.usernameInput = el; }}
                                 onChangeText={(text) => this.username = text}
                                 id="username" 
                                 placeholder='Name' 
                                 autoCapitalize = 'none'
-                                style={styles.textInputStyle}></TextInput>
+                                style={styles.textInputStyle}>                                  
+                            </TextInput>
             
-                            <Text style={styles.inputHeader}>Your email</Text>
                             <TextInput 
                                 ref= {(el) => { this.emailInput = el; }}
                                 onChangeText={(text) => this.email = text}
@@ -212,9 +211,9 @@ class RegisterScreen extends React.Component<Props> {
                                 placeholder='Email' 
                                 autoCompleteType={'email'}
                                 autoCapitalize = 'none'
-                                style={styles.textInputStyle}></TextInput>
+                                style={styles.textInputStyle}>
+                            </TextInput>
 
-                            <Text style={styles.inputHeader}>Your password</Text>
                             <TextInput 
                                 ref= {(el) => { this.passwordInput = el; }}
                                 onChangeText={(text) => this.password = text}
@@ -222,9 +221,9 @@ class RegisterScreen extends React.Component<Props> {
                                 placeholder='Password' 
                                 autoCompleteType={'password'}
                                 secureTextEntry={true} 
-                                style={styles.textInputStyle}></TextInput>
+                                style={styles.textInputStyle}>
+                            </TextInput>
 
-                            <Text style={styles.inputHeader}>Your confirm password</Text>
                             <TextInput 
                                 ref= {(el) => { this.confirmPasswordInput = el; }}
                                 onChangeText={(text) => this.confirmPassword = text}
@@ -245,17 +244,13 @@ class RegisterScreen extends React.Component<Props> {
                                         <Text>I agree to the terms</Text>
                                     </Body>
                             </ListItem>
-                        </View>
-            
-                        <View style={styles.bottomLayerFiller}></View>
-                        <View style={styles.bottomLayer}>
-                            <Button transparent full style={styles.btnLogin} onPress={this.doRegister}>
-                                <Text style={styles.btnLoginTextStyle} large>Sign Up</Text>
-                            </Button>  
-                            {/* <Button transparent full style={styles.btnLoginFacebook} onPress={this.doRegister}>
-                                <Text style={styles.btnLoginfacebookTextStyle} large>Sign Up with Facebook</Text>
-                            </Button> */}
-                        </View>      
+                            <View style={styles.bottomLayerFiller}></View>
+                            <View>
+                                <Button transparent full style={styles.btnLogin} onPress={this.doRegister}>
+                                    <Text style={styles.btnLoginTextStyle} large>Create</Text>
+                                </Button>  
+                            </View> 
+                        </View>                                        
                     </View>
                 </Content>
             

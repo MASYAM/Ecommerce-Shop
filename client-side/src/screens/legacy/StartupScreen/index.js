@@ -124,9 +124,8 @@ class StartupScreen extends React.Component<Props> {
                 <View style={styles.bottomLayerFiller}></View>
                     <View style={styles.bottomLayer}>
                     <Text style={styles.appTitle}>E-commerce Shop</Text>
-                    <Text style={styles.moto}>Find your desire design</Text>
+                    <Text style={styles.moto}>Everyday new fashion</Text>
                     <ActivityIndicator style={styles.loadingStyle} size="large" color={'white'} />
-                    <Text style={styles.moto}>Loading ...</Text>
                 </View>
               </ImageBackground>
           </Container>

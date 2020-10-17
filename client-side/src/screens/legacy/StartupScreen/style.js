@@ -67,20 +67,22 @@ export default {
     },
     backgroundImage_imageStyle: {},
     bottomLayerFiller: {
-      flex: 1
+      flex: 0
     },
     
     bottomLayer: {
-      width: '100%',
+      width: '90%',
+      borderRadius:20,
       backgroundColor: "#b50000",
-      shadowOpacity: 0.01,
-      height: 316,
-      marginBottom: 1,
+      opacity:1,
+      shadowOpacity: 0.02,
+      height: 200,
+      marginTop: 65,
       alignSelf: "center"
     },
     appTitle: {
       color: "rgba(255,255,255,1)",
-      fontSize: 50,
+      fontSize: 40,
       fontFamily: ThemeSettings.fashionFont,
       textAlign: "center",
       marginTop: 18

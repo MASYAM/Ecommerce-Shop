@@ -63,21 +63,36 @@ export default StyleSheet.create({
         flex: 1
       },
       backgroundImage_imageStyle: {},
+      TopLayerFiller: {
+        flex: 0
+      },
+
+      topLayer: {
+        width: '90%',
+        backgroundColor: "#b50000",
+        borderRadius:20,
+        opacity:0.85,
+        shadowOpacity: 0.8,
+        height: 130,
+        marginTop: 65,
+        alignSelf: "center"
+      },
+
       bottomLayerFiller: {
         flex: 1
       },
 
       bottomLayer: {
-        width: '100%',
-        backgroundColor: "#b50000",
+        width: '90%',
+        borderRadius:20,
         shadowOpacity: 0.01,
-        height: 316,
-        marginBottom: 1,
-        alignSelf: "center"
+        height: 216,
+        marginTop: 65,
+        alignSelf: "center",
       },
       appTitle: {
         color: "rgba(255,255,255,1)",
-        fontSize: 45,
+        fontSize: 40,
         fontFamily: ThemeSettings.fashionFont,
         textAlign: "center",
         marginTop: 18
@@ -90,31 +105,34 @@ export default StyleSheet.create({
         marginTop: 9
       },
       btnLogin: {
-        width: '50%',
-        height: 49,
+        width: '100%',
+        height: 55,
         borderRadius: 24,
-        backgroundColor: "orange"
+        backgroundColor: "orange",
+        opacity:0.85,
+        shadowOpacity: 0.8,
       },
       btnRegister: {
-        width: '50%',
-        height: 49,
+        width: '100%',
+        height: 55,
         borderRadius: 25,
-        marginLeft: 10,
-        backgroundColor:'black'
+        backgroundColor:'#000',
+        opacity:0.85,
+        shadowOpacity: 0.8,
       },
       buttonContainer: {
         height: 49,
         width:'100%',
         flexDirection: "row",
-        marginTop: 57,
-        paddingLeft:10,
-        paddingRight:20
+        marginTop: 40,
       },
       btnLoginTextStyle:{
-          color:'black'
+          color:'black',
+          fontWeight:"bold"
       },
       btnRegisterTextStyle:{
-        color:'white'
+        color:'white',
+        fontWeight:"bold"
       }
 
 })

@@ -108,18 +108,23 @@ class LandingView extends React.Component<Props> {
                   style={styles.backgroundImage}
                   imageStyle={styles.backgroundImage_imageStyle}
                 >
+                  <View style={styles.topFiller}></View>
+                  <View style={styles.topLayer}>
+                    <Text style={styles.appTitle}>E-commerce Shop</Text>
+                    <Text style={styles.moto}>Everyday new fashion</Text>
+                  </View>
+
                   <View style={styles.bottomLayerFiller}></View>
                   <View style={styles.bottomLayer}>
-                    <Text style={styles.appTitle}>E-commerce Shop</Text>
-                    <Text style={styles.moto}>Find your desire design</Text>
                     <View style={styles.buttonContainer}>  
-                          <Button full  style={styles.btnLogin} onPress={this.doStart}>
-                                  <Text style={styles.btnLoginTextStyle} large>Login</Text>
-                              </Button>                      
-                              <Button  full  style={styles.btnRegister} onPress={this.doRegister}>
-                                  <Text style={styles.btnRegisterTextStyle} large >Register</Text>
-                            </Button>
-                                  
+                        <Button full  style={styles.btnLogin} onPress={this.doStart}>
+                            <Text style={styles.btnLoginTextStyle} large>Sign In</Text>
+                        </Button>    
+                    </View>   
+                    <View style={styles.buttonContainer}>                 
+                        <Button  full  style={styles.btnRegister} onPress={this.doRegister}>
+                            <Text style={styles.btnRegisterTextStyle} large >Create your shopping account</Text>
+                        </Button>          
                     </View>
                   </View>
                 </ImageBackground>

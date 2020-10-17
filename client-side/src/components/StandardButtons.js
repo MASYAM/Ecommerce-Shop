@@ -13,6 +13,7 @@ export const ButtonImageSizeLevels:{[sizeName: string]: number} = {
     "sm": 12,
     "md": 15,
     "lg": 20,
+    "xl": 30
 }
 
 export const getButtonImageSizeValue = ( size: ButtonImageSize): number => {
@@ -61,14 +62,14 @@ export const StandardButton: React.FC<StandardButtonProps> = (props: StandardBut
 export const MenuButton: React.FC<StandardButtonProps> = (props: StandardButtonProps) => {
     const { children, size, ... otherProps } = props;
     return (<StandardButton {... otherProps}>
-        <ButtonImage source={ImageSources.Menu} size={size || "md"} />
+        <ButtonImage source={ImageSources.Menu} size={size || "xl"} />
     </StandardButton>);
 }
 
 export const ShareButton: React.FC<StandardButtonProps> = (props: StandardButtonProps) => {
     const { children, size, ... otherProps } = props;
     return (<StandardButton {... otherProps}>
-        <ButtonImage source={ImageSources.Share} size={size || "md"} />
+        <ButtonImage source={ImageSources.Share} size={size || "lg"} />
     </StandardButton>);
 }
 
@@ -76,13 +77,13 @@ export const ShareButton: React.FC<StandardButtonProps> = (props: StandardButton
 export const CloseButton: React.FC<StandardButtonProps> = (props: StandardButtonProps) => {
     const { children, size, ... otherProps } = props;
     return (<StandardButton {... otherProps}>
-        <ButtonImage source={ImageSources.Close} size={size || "md"} />
+        <ButtonImage source={ImageSources.Close} size={size || "xl"} />
     </StandardButton>);
 }
 
 export const BackButton: React.FC<StandardButtonProps> = (props: StandardButtonProps) => {
     const { children, size, ... otherProps } = props;
     return (<StandardButton {... otherProps}>
-        <ButtonImage source={ImageSources.LeftArrow} size={size || "md"} />
+        <ButtonImage source={ImageSources.LeftArrow} size={size || "xl"} />
     </StandardButton >);
 }
